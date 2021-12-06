@@ -14,6 +14,10 @@
         {% endblock %}
     </head>
     <body>
+         <!--HEADER-->
+      {% include('partial/partials-base/_nav.html.twig') %}
+      {% include('partial/_flash_messages.html.twig') %}
+      <!--FIN HEADER-->
         {% block body %}{% endblock %}
     </body>
 </html>
